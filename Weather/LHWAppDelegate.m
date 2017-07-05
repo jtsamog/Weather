@@ -42,31 +42,31 @@
     //Vancouver
     CityViewController *cityVancouver = [CityViewController new];
     cityVancouver.city = vancouver;
-    cityVancouver.view.backgroundColor = [UIColor blueColor];
+    cityVancouver.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Vancouver.png"]];
     UINavigationController *navControllerVancouver = [[UINavigationController alloc]initWithRootViewController:cityVancouver];
     
     //Toronto
     CityViewController *cityToronto = [CityViewController new];
     cityToronto.city = toronto;
-    cityToronto.view.backgroundColor = [UIColor greenColor];
+    cityToronto.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Toronto.png"]];
     UINavigationController *navControllerToronto = [[UINavigationController alloc]initWithRootViewController:cityToronto];
     
     //Montreal
     CityViewController *cityMontreal = [CityViewController new];
     cityMontreal.city = montreal;
-    cityMontreal.view.backgroundColor = [UIColor purpleColor];
+    cityMontreal.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Montreal.png"]];
     UINavigationController *navControllerMontreal = [[UINavigationController alloc]initWithRootViewController:cityMontreal];
     
     //Chicago
     CityViewController *cityChicago = [CityViewController new];
     cityChicago.city = chicago;
-    cityChicago.view.backgroundColor = [UIColor yellowColor];
+    cityChicago.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Chicago.png"]];
     UINavigationController *navControllerChicago = [[UINavigationController alloc]initWithRootViewController:cityChicago];
     
     //Tokyo
     CityViewController *cityTokyo = [CityViewController new];
     cityTokyo.city = tokyo;
-    cityTokyo.view.backgroundColor = [UIColor cyanColor];
+    cityTokyo.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"LA.png"]];
     UINavigationController *navControllerTokyo = [[UINavigationController alloc]initWithRootViewController:cityTokyo];
     
     //add each city's navigation controller to your tab view controller

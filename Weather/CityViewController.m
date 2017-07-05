@@ -41,6 +41,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = [self.city.cityName uppercaseString];
+
     
     
     //add button to right side of bar

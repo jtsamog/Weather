@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+@import UIKit;
 
 @interface City : NSObject
 @property (nonatomic) NSString *cityName;
+@property (nonatomic) UIImage *cityImage;
 @property (nonatomic) NSInteger currentTemp;
 @property (nonatomic) NSDate *currentTime;
 @property (nonatomic) NSString *cloudy;
