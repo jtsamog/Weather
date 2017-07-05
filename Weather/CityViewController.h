@@ -11,5 +11,6 @@
 
 @interface CityViewController : UIViewController
 @property (nonatomic) City *city;
+@property (nonatomic) UITabBarItem *tabBarItem;
 
 @end
