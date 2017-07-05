@@ -8,6 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		12E6125B1C501E0F0017AB28 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E6125A1C501E0F0017AB28 /* Launch Screen.storyboard */; };
+		302D91DB1F0D38BD004A6D0C /* Chicago.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91C71F0D38BD004A6D0C /* Chicago.png */; };
+		302D91DC1F0D38BD004A6D0C /* FogSymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91C81F0D38BD004A6D0C /* FogSymbol.png */; };
+		302D91DD1F0D38BD004A6D0C /* FogSymbol@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91C91F0D38BD004A6D0C /* FogSymbol@2x.png */; };
+		302D91DE1F0D38BD004A6D0C /* FogSymbol@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91CA1F0D38BD004A6D0C /* FogSymbol@3x.png */; };
+		302D91DF1F0D38BD004A6D0C /* LA.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91CB1F0D38BD004A6D0C /* LA.png */; };
+		302D91E01F0D38BD004A6D0C /* Montreal.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91CC1F0D38BD004A6D0C /* Montreal.png */; };
+		302D91E11F0D38BD004A6D0C /* PartCloudSymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91CD1F0D38BD004A6D0C /* PartCloudSymbol.png */; };
+		302D91E21F0D38BD004A6D0C /* PartCloudSymbol@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91CE1F0D38BD004A6D0C /* PartCloudSymbol@2x.png */; };
+		302D91E31F0D38BD004A6D0C /* PartCloudSymbol@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91CF1F0D38BD004A6D0C /* PartCloudSymbol@3x.png */; };
+		302D91E41F0D38BD004A6D0C /* RainSymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91D01F0D38BD004A6D0C /* RainSymbol.png */; };
+		302D91E51F0D38BD004A6D0C /* RainSymbol@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91D11F0D38BD004A6D0C /* RainSymbol@2x.png */; };
+		302D91E61F0D38BD004A6D0C /* RainSymbol@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91D21F0D38BD004A6D0C /* RainSymbol@3x.png */; };
+		302D91E71F0D38BD004A6D0C /* SunnySymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91D31F0D38BD004A6D0C /* SunnySymbol.png */; };
+		302D91E81F0D38BD004A6D0C /* SunnySymbol@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91D41F0D38BD004A6D0C /* SunnySymbol@2x.png */; };
+		302D91E91F0D38BD004A6D0C /* SunnySymbol@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91D51F0D38BD004A6D0C /* SunnySymbol@3x.png */; };
+		302D91EA1F0D38BD004A6D0C /* Toronto .png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91D61F0D38BD004A6D0C /* Toronto .png */; };
+		302D91EB1F0D38BD004A6D0C /* Vancouver.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91D71F0D38BD004A6D0C /* Vancouver.png */; };
+		302D91EC1F0D38BD004A6D0C /* WindyCloudSymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91D81F0D38BD004A6D0C /* WindyCloudSymbol.png */; };
+		302D91ED1F0D38BD004A6D0C /* WindyCloudSymbol@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91D91F0D38BD004A6D0C /* WindyCloudSymbol@2x.png */; };
+		302D91EE1F0D38BD004A6D0C /* WindyCloudSymbol@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D91DA1F0D38BD004A6D0C /* WindyCloudSymbol@3x.png */; };
+		302D91F41F0D3B43004A6D0C /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D91F31F0D3B43004A6D0C /* CityViewController.m */; };
+		302D91F71F0D3B8F004A6D0C /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D91F61F0D3B8F004A6D0C /* DetailedViewController.m */; };
+		302D91FA1F0D3C3A004A6D0C /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D91F91F0D3C3A004A6D0C /* City.m */; };
 		60ADD94B1989CFDB0086A6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94A1989CFDB0086A6BC /* Foundation.framework */; };
 		60ADD94D1989CFDB0086A6BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94C1989CFDB0086A6BC /* CoreGraphics.framework */; };
 		60ADD94F1989CFDB0086A6BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94E1989CFDB0086A6BC /* UIKit.framework */; };
@@ -47,6 +70,32 @@
 
 /* Begin PBXFileReference section */
 		12E6125A1C501E0F0017AB28 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		302D91C71F0D38BD004A6D0C /* Chicago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chicago.png; sourceTree = "<group>"; };
+		302D91C81F0D38BD004A6D0C /* FogSymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FogSymbol.png; sourceTree = "<group>"; };
+		302D91C91F0D38BD004A6D0C /* FogSymbol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FogSymbol@2x.png"; sourceTree = "<group>"; };
+		302D91CA1F0D38BD004A6D0C /* FogSymbol@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FogSymbol@3x.png"; sourceTree = "<group>"; };
+		302D91CB1F0D38BD004A6D0C /* LA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LA.png; sourceTree = "<group>"; };
+		302D91CC1F0D38BD004A6D0C /* Montreal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Montreal.png; sourceTree = "<group>"; };
+		302D91CD1F0D38BD004A6D0C /* PartCloudSymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PartCloudSymbol.png; sourceTree = "<group>"; };
+		302D91CE1F0D38BD004A6D0C /* PartCloudSymbol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PartCloudSymbol@2x.png"; sourceTree = "<group>"; };
+		302D91CF1F0D38BD004A6D0C /* PartCloudSymbol@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PartCloudSymbol@3x.png"; sourceTree = "<group>"; };
+		302D91D01F0D38BD004A6D0C /* RainSymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RainSymbol.png; sourceTree = "<group>"; };
+		302D91D11F0D38BD004A6D0C /* RainSymbol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RainSymbol@2x.png"; sourceTree = "<group>"; };
+		302D91D21F0D38BD004A6D0C /* RainSymbol@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RainSymbol@3x.png"; sourceTree = "<group>"; };
+		302D91D31F0D38BD004A6D0C /* SunnySymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SunnySymbol.png; sourceTree = "<group>"; };
+		302D91D41F0D38BD004A6D0C /* SunnySymbol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SunnySymbol@2x.png"; sourceTree = "<group>"; };
+		302D91D51F0D38BD004A6D0C /* SunnySymbol@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SunnySymbol@3x.png"; sourceTree = "<group>"; };
+		302D91D61F0D38BD004A6D0C /* Toronto .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Toronto .png"; sourceTree = "<group>"; };
+		302D91D71F0D38BD004A6D0C /* Vancouver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vancouver.png; sourceTree = "<group>"; };
+		302D91D81F0D38BD004A6D0C /* WindyCloudSymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WindyCloudSymbol.png; sourceTree = "<group>"; };
+		302D91D91F0D38BD004A6D0C /* WindyCloudSymbol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WindyCloudSymbol@2x.png"; sourceTree = "<group>"; };
+		302D91DA1F0D38BD004A6D0C /* WindyCloudSymbol@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WindyCloudSymbol@3x.png"; sourceTree = "<group>"; };
+		302D91F21F0D3B43004A6D0C /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		302D91F31F0D3B43004A6D0C /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		302D91F51F0D3B8F004A6D0C /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		302D91F61F0D3B8F004A6D0C /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		302D91F81F0D3C3A004A6D0C /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		302D91F91F0D3C3A004A6D0C /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
 		60ADD9471989CFDB0086A6BC /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60ADD94A1989CFDB0086A6BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60ADD94C1989CFDB0086A6BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -102,6 +151,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		302D91C61F0D38BD004A6D0C /* weather_images */ = {
+			isa = PBXGroup;
+			children = (
+				302D91C71F0D38BD004A6D0C /* Chicago.png */,
+				302D91C81F0D38BD004A6D0C /* FogSymbol.png */,
+				302D91C91F0D38BD004A6D0C /* FogSymbol@2x.png */,
+				302D91CA1F0D38BD004A6D0C /* FogSymbol@3x.png */,
+				302D91CB1F0D38BD004A6D0C /* LA.png */,
+				302D91CC1F0D38BD004A6D0C /* Montreal.png */,
+				302D91CD1F0D38BD004A6D0C /* PartCloudSymbol.png */,
+				302D91CE1F0D38BD004A6D0C /* PartCloudSymbol@2x.png */,
+				302D91CF1F0D38BD004A6D0C /* PartCloudSymbol@3x.png */,
+				302D91D01F0D38BD004A6D0C /* RainSymbol.png */,
+				302D91D11F0D38BD004A6D0C /* RainSymbol@2x.png */,
+				302D91D21F0D38BD004A6D0C /* RainSymbol@3x.png */,
+				302D91D31F0D38BD004A6D0C /* SunnySymbol.png */,
+				302D91D41F0D38BD004A6D0C /* SunnySymbol@2x.png */,
+				302D91D51F0D38BD004A6D0C /* SunnySymbol@3x.png */,
+				302D91D61F0D38BD004A6D0C /* Toronto .png */,
+				302D91D71F0D38BD004A6D0C /* Vancouver.png */,
+				302D91D81F0D38BD004A6D0C /* WindyCloudSymbol.png */,
+				302D91D91F0D38BD004A6D0C /* WindyCloudSymbol@2x.png */,
+				302D91DA1F0D38BD004A6D0C /* WindyCloudSymbol@3x.png */,
+			);
+			name = weather_images;
+			path = images/weather_images;
+			sourceTree = "<group>";
+		};
 		60ADD93E1989CFDB0086A6BC = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +214,13 @@
 			children = (
 				60ADD9591989CFDB0086A6BC /* LHWAppDelegate.h */,
 				60ADD95A1989CFDB0086A6BC /* LHWAppDelegate.m */,
+				302D91F51F0D3B8F004A6D0C /* DetailedViewController.h */,
+				302D91F61F0D3B8F004A6D0C /* DetailedViewController.m */,
+				302D91F21F0D3B43004A6D0C /* CityViewController.h */,
+				302D91F31F0D3B43004A6D0C /* CityViewController.m */,
+				302D91F81F0D3C3A004A6D0C /* City.h */,
+				302D91F91F0D3C3A004A6D0C /* City.m */,
+				302D91C61F0D38BD004A6D0C /* weather_images */,
 				AF207A4519F472D300FD95BF /* images */,
 				60ADD95C1989CFDB0086A6BC /* Images.xcassets */,
 				60ADD9511989CFDB0086A6BC /* Supporting Files */,
@@ -242,6 +326,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Lighthouse Labs";
 				TargetAttributes = {
+					60ADD9461989CFDB0086A6BC = {
+						DevelopmentTeam = 4KJC5XPKL6;
+					};
 					60ADD9611989CFDB0086A6BC = {
 						TestTargetID = 60ADD9461989CFDB0086A6BC;
 					};
@@ -270,19 +357,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302D91DF1F0D38BD004A6D0C /* LA.png in Resources */,
+				302D91E01F0D38BD004A6D0C /* Montreal.png in Resources */,
 				AF207A5919F472D300FD95BF /* fog.png in Resources */,
 				AF207A5C19F472D300FD95BF /* sleet.png in Resources */,
+				302D91DC1F0D38BD004A6D0C /* FogSymbol.png in Resources */,
 				AF207A5419F472D300FD95BF /* clear-night.png in Resources */,
 				AF207A5E19F472D300FD95BF /* Sunny.png in Resources */,
+				302D91E21F0D38BD004A6D0C /* PartCloudSymbol@2x.png in Resources */,
+				302D91E11F0D38BD004A6D0C /* PartCloudSymbol.png in Resources */,
+				302D91ED1F0D38BD004A6D0C /* WindyCloudSymbol@2x.png in Resources */,
+				302D91E41F0D38BD004A6D0C /* RainSymbol.png in Resources */,
+				302D91EB1F0D38BD004A6D0C /* Vancouver.png in Resources */,
+				302D91E71F0D38BD004A6D0C /* SunnySymbol.png in Resources */,
 				AF207A5819F472D300FD95BF /* degree.png in Resources */,
+				302D91E91F0D38BD004A6D0C /* SunnySymbol@3x.png in Resources */,
+				302D91DD1F0D38BD004A6D0C /* FogSymbol@2x.png in Resources */,
+				302D91DB1F0D38BD004A6D0C /* Chicago.png in Resources */,
+				302D91EE1F0D38BD004A6D0C /* WindyCloudSymbol@3x.png in Resources */,
 				AF207A5619F472D300FD95BF /* cloudy.png in Resources */,
 				AF207A5719F472D300FD95BF /* default.png in Resources */,
 				AF207A5B19F472D300FD95BF /* rain.png in Resources */,
+				302D91E31F0D38BD004A6D0C /* PartCloudSymbol@3x.png in Resources */,
+				302D91E81F0D38BD004A6D0C /* SunnySymbol@2x.png in Resources */,
+				302D91EA1F0D38BD004A6D0C /* Toronto .png in Resources */,
 				AF207A5319F472D300FD95BF /* clear-day.png in Resources */,
 				60ADD9551989CFDB0086A6BC /* InfoPlist.strings in Resources */,
+				302D91E61F0D38BD004A6D0C /* RainSymbol@3x.png in Resources */,
+				302D91EC1F0D38BD004A6D0C /* WindyCloudSymbol.png in Resources */,
 				12E6125B1C501E0F0017AB28 /* Launch Screen.storyboard in Resources */,
 				AF207A5D19F472D300FD95BF /* snow.png in Resources */,
 				AF207A5F19F472D300FD95BF /* wind.png in Resources */,
+				302D91DE1F0D38BD004A6D0C /* FogSymbol@3x.png in Resources */,
+				302D91E51F0D38BD004A6D0C /* RainSymbol@2x.png in Resources */,
 				AF207A5519F472D300FD95BF /* cloudy-night.png in Resources */,
 				60ADD95D1989CFDB0086A6BC /* Images.xcassets in Resources */,
 				AF207A5A19F472D300FD95BF /* partly-cloudy.png in Resources */,
@@ -304,7 +411,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302D91FA1F0D3C3A004A6D0C /* City.m in Sources */,
+				302D91F41F0D3B43004A6D0C /* CityViewController.m in Sources */,
 				60ADD95B1989CFDB0086A6BC /* LHWAppDelegate.m in Sources */,
+				302D91F71F0D3B8F004A6D0C /* DetailedViewController.m in Sources */,
 				60ADD9571989CFDB0086A6BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 4KJC5XPKL6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weather/Weather-Prefix.pch";
 				INFOPLIST_FILE = "Weather/Weather-Info.plist";
@@ -435,6 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 4KJC5XPKL6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weather/Weather-Prefix.pch";
 				INFOPLIST_FILE = "Weather/Weather-Info.plist";

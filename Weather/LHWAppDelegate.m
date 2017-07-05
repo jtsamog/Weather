@@ -7,6 +7,8 @@
 //
 
 #import "LHWAppDelegate.h"
+#import "City.h"
+#import "CityViewController.h"
 
 @implementation LHWAppDelegate
 
@@ -16,6 +18,60 @@
     
     // Your code goes here
     // Don't forget to assign the window a rootViewController
+    
+    //initialize city names
+    City *vancouver = [[City alloc]init];
+    vancouver.cityName = @"Vancouver";
+    City *toronto = [[City alloc]init];
+    toronto.cityName = @"Toronto";
+    City *montreal = [[City alloc]init];
+    montreal.cityName = @"Montreal";
+    City *chicago = [[City alloc]init];
+    chicago.cityName = @"Chicago";
+    City *tokyo = [[City alloc]init];
+    tokyo.cityName = @"Tokyo";
+    
+    
+// initialize tab bar controllers
+    
+    UITabBarController *cityTabBarController = [[UITabBarController alloc]init];
+    
+    self.window.rootViewController = cityTabBarController; // set as rootviewcontroller
+
+    // initialize five CityViewController instances, one for each city and add bgColor then set to the Nav controller;
+    //Vancouver
+    CityViewController *cityVancouver = [CityViewController new];
+    cityVancouver.city = vancouver;
+    cityVancouver.view.backgroundColor = [UIColor blueColor];
+    UINavigationController *navControllerVancouver = [[UINavigationController alloc]initWithRootViewController:cityVancouver];
+    
+    //Toronto
+    CityViewController *cityToronto = [CityViewController new];
+    cityToronto.city = toronto;
+    cityToronto.view.backgroundColor = [UIColor greenColor];
+    UINavigationController *navControllerToronto = [[UINavigationController alloc]initWithRootViewController:cityToronto];
+    
+    //Montreal
+    CityViewController *cityMontreal = [CityViewController new];
+    cityMontreal.city = montreal;
+    cityMontreal.view.backgroundColor = [UIColor purpleColor];
+    UINavigationController *navControllerMontreal = [[UINavigationController alloc]initWithRootViewController:cityMontreal];
+    
+    //Chicago
+    CityViewController *cityChicago = [CityViewController new];
+    cityChicago.city = chicago;
+    cityChicago.view.backgroundColor = [UIColor yellowColor];
+    UINavigationController *navControllerChicago = [[UINavigationController alloc]initWithRootViewController:cityChicago];
+    
+    //Tokyo
+    CityViewController *cityTokyo = [CityViewController new];
+    cityTokyo.city = tokyo;
+    cityTokyo.view.backgroundColor = [UIColor cyanColor];
+    UINavigationController *navControllerTokyo = [[UINavigationController alloc]initWithRootViewController:cityTokyo];
+    
+    //add each city's navigation controller to your tab view controller
+    cityTabBarController.viewControllers = @[navControllerVancouver,navControllerToronto, navControllerMontreal,navControllerChicago,navControllerTokyo ];
+    
     
     [self.window makeKeyAndVisible];
     return YES;
