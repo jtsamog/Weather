@@ -33,9 +33,7 @@
 
 
 
--(void)showWeatherDetails{
-    
-}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -45,12 +43,12 @@
     
     
     //add button to right side of bar
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"More" style:UIBarButtonItemStylePlain target:self action:@selector(buttonTapped)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"More" style:UIBarButtonItemStylePlain target:self action:@selector(showWeatherDetails)];
     
 }
 
 
--(void)buttonTapped{
+-(void)showWeatherDetails{
     
     DetailedViewController *dVC = [DetailedViewController new];
     dVC.title = [NSString stringWithFormat:@"Detail %@", [self.title capitalizedString]];
